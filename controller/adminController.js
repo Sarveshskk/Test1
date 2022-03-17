@@ -2,7 +2,7 @@ const User = require("../models/users");
 const md5 = require("md5");
 const jwt = require("jsonwebtoken");
 const Address = require("../models/address");
-const Task = require("../models/task");
+
 
 exports.addUser = async (req, res) => {
     try {
